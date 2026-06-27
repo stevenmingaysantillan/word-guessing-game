@@ -1,10 +1,10 @@
 Description:
 
-An immersive, story-driven choice adventure game set in the fictional, mystical City of Aeolian. This project goes beyond a standard linear narrative by letting players customize the main characters' names and navigate a branching script full of unpredictable twists, interactive dialogue, and magical consequences.
+A puzzle game where the user tries to guess a hidden secret word. The program acts as an interactive word matrix, providing real-time capital and lowercase letter hints to guide the player to the correct answer.
 
 Key Features
-Dynamic Character Customization: Prompts players to input their name and a childhood friend's name, dynamically embedding them into the story's dialogue.
+Dynamic Hint Generator: Compares the player's guess to the secret word index-by-index. It outputs an UPPERCASE letter if the character is in the perfect spot, a lowercase letter if the character is in the word but in the wrong spot, and an underscore (_) if it doesn't match.
 
-Deep Branching Logic: Uses complex nested conditional statements (if-elif-else) to create unique story pathways based on player choices (e.g., helping a stranger, choosing a routine, interacting with a mysterious glowing book).
+Input Validation & Safety: Checks the string length (len()) of the user's guess against the secret word length, warning the player if their guess is invalid without wasting a turn.
 
-Input Standardization: Utilizes .title() and .upper() methods to ensure robust string comparisons and smooth gameplay, regardless of how the user types their inputs.
+Game Loop & Score Tracking: Implements a while loop that keeps the game alive until the correct word is typed, automatically tracking and displaying the total guess count upon victory.
