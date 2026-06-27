@@ -1,4 +1,5 @@
-Description
+Description:
+
 An immersive, story-driven choice adventure game set in the fictional, mystical City of Aeolian. This project goes beyond a standard linear narrative by letting players customize the main characters' names and navigate a branching script full of unpredictable twists, interactive dialogue, and magical consequences.
 
 Key Features
